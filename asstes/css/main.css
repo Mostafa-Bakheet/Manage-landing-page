@@ -1,0 +1,183 @@
+    .c {
+        color: hsl(12, 88%, 59%);
+    }
+    
+    .c1 {
+        color: hsl(228, 39%, 23%);
+    }
+    
+    .c2 {
+        color: hsl(227, 12%, 61%);
+    }
+    
+    .c3 {
+        color: hsl(233, 12%, 13%);
+    }
+    
+    .c4 {
+        color: hsl(13, 100%, 96%);
+    }
+    
+    .c5 {
+        color: hsl(0, 0%, 98%);
+    }
+    
+    #navbarText ul {
+        margin-left: 10rem;
+    }
+    
+    #navbarText ul li a {
+        font-weight: 500;
+    }
+    
+    .navbar-text {
+        background-color: hsl(12, 88%, 59%);
+        padding: 10px;
+        border-radius: 30px;
+    }
+    
+    .navbar-text a {
+        text-decoration: none;
+        color: hsl(0, 0%, 98%) !important;
+    }
+    
+    #navbarText ul li a:hover {
+        color: hsl(227, 12%, 61%);
+    }
+    
+    .navbar-text a:hover {
+        opacity: .7;
+    }
+    
+    .right-pricing {
+        text-align: left;
+    }
+    
+    .right-pricing>div {
+        margin-top: 7rem;
+    }
+    
+    .right-pricing>div>h1 {
+        color: hsl(228, 39%, 23%);
+        ;
+        font-size: 51px;
+    }
+    
+    .right-pricing>div>p {
+        color: hsl(227, 12%, 61%);
+        ;
+        margin-top: 2rem;
+    }
+    
+    .right-pricing>div>span {
+        margin-top: 2rem !important;
+    }
+    
+    .img-pricing {
+        background-image: url(https://svgshare.com/i/rcK.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: auto;
+    }
+    
+    .product-f {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: left;
+    }
+    
+    .product-r span {
+        padding: 5px;
+        color: hsl(0, 0%, 98%);
+        background-color: hsl(12, 88%, 59%);
+        border-radius: 25px;
+        text-align: center !important;
+    }
+    
+    #Cards {
+        text-align: center;
+    }
+    
+    #Cards .card img {
+        width: 25% !important;
+    }
+    
+    #Cards .card {
+        border: 0px !important;
+    }
+    
+    #Cards .card .card-body h5 {
+        color: hsl(228, 39%, 23%);
+        font-size: 15px;
+    }
+    
+    #Cards .card .card-body p {
+        color: hsl(227, 12%, 61%);
+    }
+    
+    @media only screen and (max-width: 920px) {
+        .product-f {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    #careers {
+        padding: 3% 0;
+        margin-top: 5rem;
+        background: hsl(12, 88%, 59%) no-repeat fixed center;
+    }
+    
+    .footer-a {
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 10rem;
+    }
+    
+    .footer-a a {
+        color: hsl(12, 88%, 59%);
+        text-decoration: none;
+    }
+    
+    .careers {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .careers h1 {
+        color: white;
+    }
+    
+    @media only screen and (max-width: 770px) {
+        .careers {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-a {
+            margin-left: 0rem;
+        }
+    }
+    
+    #footer {
+        background-color: hsl(233, 12%, 13%);
+        padding: 10px 0px;
+    }
+    
+    #footer a {
+        text-decoration: none;
+    }
+    
+    .btn-dark {
+        background-color: hsl(12, 88%, 59%) !important;
+    }
+    
+    .input-group-text {
+        display: inline-block!important;
+    }
+    
+    @media only screen and (max-width: 550px) {
+        #CardCarousel {
+            text-align: left;
+        }
+    }
